@@ -1,0 +1,38 @@
+body {
+  background: #0f172a;
+  color: white;
+}
+
+.carousel-img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00ff88;
+}
+
+.hero-text {
+  font-size: 1.3rem;
+}
+
+.form-container {
+  max-width: 450px;
+  margin: 50px auto;
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px #00ff88;
+}
+
+input {
+  background: #334155 !important;
+  color: white !important;
+  border: none !important;
+}
+
+input::placeholder {
+  color: lightgray !important;
+}
